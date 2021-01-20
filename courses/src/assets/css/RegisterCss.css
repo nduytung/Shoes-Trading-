@@ -1,0 +1,15 @@
+.register {
+  background-color: tan;
+  border-radius: 15px;
+}
+.register__title {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.register__title__subscribe {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register__form {
+}

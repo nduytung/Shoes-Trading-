@@ -1,0 +1,20 @@
+.card__img-holder {
+  height: 388px;
+  width: 95%;
+  background-color: #f5f5f5;
+}
+
+.card__name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+}
+
+.card__price {
+  font-size: 25px;
+}
+
+.card:hover {
+  background-color: #edf5ff;
+  transition: 0.5s ease;
+  box-shadow: 0px 3px 18px 5px #888888;
+}

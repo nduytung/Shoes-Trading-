@@ -1,0 +1,16 @@
+.ad {
+  height: 500px;
+  background-color: #c1a98d;
+}
+.ad__background > img {
+  height: 400px;
+}
+
+.ad__info__discount {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ad__info__collection {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+}

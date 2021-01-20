@@ -1,0 +1,30 @@
+*:focus {
+  outline: none;
+}
+.navbar {
+  height: 100px;
+}
+
+.nav-item__link {
+  cursor: pointer;
+  color: black;
+}
+
+.nav-item__link:hover {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.navbar__search {
+  height: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.navbar__search > input {
+  height: 100%;
+}
+
+.navbar__brand {
+  color: tan;
+}

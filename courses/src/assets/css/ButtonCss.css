@@ -1,0 +1,14 @@
+.customized-btn {
+  border-radius: 40px;
+  color: black;
+  height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color: transparent;
+}
+.customized-btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s ease;
+}
