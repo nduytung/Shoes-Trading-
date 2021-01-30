@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import Button from "./Button";
 import "../assets/css/NavBarCss.css";
 import "../assets/FA/css/all.min.css";
-let NavBar = () => {
+let NavBar = (props) => {
+  let { handleDisplayState, loginState } = props;
+  let loginText;
+  loginState == true ? (loginText = "Logout") : (loginText = "Login");
   return (
     <nav className="navbar-expand-lg navbar navbar-light justify-content-between">
       <p href="#" className="col-1 h2 font-weight-bold p-0 navbar__brand">
@@ -32,8 +35,8 @@ let NavBar = () => {
         />
         <i class="fas fa-search text-secondary"></i>
       </div>
-      <div className="navbar__signin ">
-        <Button btnName={"Log in"} />
+      <div className="navbar__signin " onClick={handleDisplayState}>
+        <Button btnName={loginText} />
       </div>
     </nav>
   );

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Testing",
+      "nickName": "nighthunter",
+      "password": "1611",
+      "id": 1
+    },
+    {
+      "name": "Nguyen Duy Tung",
+      "nickName": "duytung",
+      "password": "1611",
+      "id": 2
+    },
+    {
+      "name": "Nguyen Duy Tung",
+      "nickName": "nduytung02",
+      "password": "161101",
+      "id": 3
+    }
+  ]
+}

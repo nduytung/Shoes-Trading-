@@ -1,0 +1,23 @@
+.login-modal__container {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background-color: #999999;
+  opacity: 0.5;
+}
+
+.modal__form {
+  margin-top: 50px !important;
+}
+
+.register-link {
+  cursor: pointer;
+}
+
+.fa-times {
+  cursor: pointer;
+}
+
+.login-form-container {
+  position: fixed;
+}

@@ -8,7 +8,7 @@ let ProductCard = (props) => {
     <div className="container mb-4 pb-3 pt-3 card border-0">
       <div className="row text-center justify-content-center">
         <div className="card__img-holder">
-          <img src={cardImg} alt="" />
+          <img src={cardImg} alt="no picture to display" />
         </div>
         <div className="card__rating col-12 pt-4 pb-3 ">
           <i class="far fa-star"></i>

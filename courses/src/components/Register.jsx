@@ -1,6 +1,30 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "./Button";
 import "../assets/css/RegisterCss.css";
+
+let handleClick = async () => {
+  let data = {};
+  console.log("hello worlddddd");
+  //lay data tu cac input
+  data.name = document.getElementById("register__form__input__name").value;
+  data.nickName = document.getElementById(
+    "register__form__input__nick-name"
+  ).value;
+  data.password = document.getElementById(
+    "register__form__input__password"
+  ).value;
+
+  console.log(data);
+
+  let requestPackage = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  };
+  let response = await fetch("http://localhost:3001/users", requestPackage);
+  let request = await response.json();
+};
+
 let Register = () => {
   return (
     <div>
@@ -19,6 +43,7 @@ let Register = () => {
           </div>
           <div className="register__form col-6">
             <div className="register__form__input mt-3 mb-3">
+              {/*input danh cho name */}
               <input
                 type="text"
                 id="register__form__input__name"
@@ -29,9 +54,10 @@ let Register = () => {
               <div className="invalid-feedback">Please fill in your name</div>
             </div>
             <div className="register__form__input mt-3 mb-3">
+              {/*input danh cho nickname */}
               <input
                 type="text"
-                id="register__form__input__name"
+                id="register__form__input__nick-name"
                 placeholder="You want to be called as..."
                 className="form-control p-3"
                 required
@@ -41,9 +67,10 @@ let Register = () => {
               </div>
             </div>
             <div className="register__form__input mt-3 mb-3">
+              {/*input danh cho password*/}
               <input
-                type="text"
-                id="register__form__input__name"
+                type="password"
+                id="register__form__input__password"
                 placeholder="Password"
                 className="form-control p-3"
                 required
@@ -52,7 +79,7 @@ let Register = () => {
             </div>
             <div className="register__form__input mt-3 mb-3">
               <input
-                type="text"
+                type="password"
                 id="register__form__input__name"
                 placeholder="Type your password again"
                 className="form-control p-3"
@@ -60,7 +87,7 @@ let Register = () => {
               />
               <div className="invalid-feedback">Type your password again !</div>
             </div>
-            <Button btnName="submit" />
+            <Button btnName="submit" handleClick={handleClick} />
           </div>
         </div>
       </div>

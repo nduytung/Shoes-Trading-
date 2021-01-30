@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "nike air jordan 1",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://swagger.com.vn/wp-content/uploads/2020/03/Nike-Air-Jordan-1-Bred-Toe.jpg "
+    },
+    {
+      "id": 2,
+      "name": "jordan 1 offwhite UNC",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://sharkshop.vn/wp-content/uploads/2019/01/Air-Jordan-1-Retro-High-OG-UNC-Patent-CD0461-401_12.jpg"
+    },
+    {
+      "id": 3,
+      "name": "yeezy 700 waverunner",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://cdn.flightclub.com/750/TEMPLATE/153830/1.jpg"
+    },
+    {
+      "id": 1,
+      "name": "nike air jordan 1",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://swagger.com.vn/wp-content/uploads/2020/03/Nike-Air-Jordan-1-Bred-Toe.jpg "
+    },
+    {
+      "id": 2,
+      "name": "jordan 1 offwhite UNC",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://sharkshop.vn/wp-content/uploads/2019/01/Air-Jordan-1-Retro-High-OG-UNC-Patent-CD0461-401_12.jpg"
+    },
+    {
+      "id": 3,
+      "name": "yeezy 700 waverunner",
+      "price": "100000",
+      "phone": "xxxxxx",
+      "rating": 4,
+      "img": "https://cdn.flightclub.com/750/TEMPLATE/153830/1.jpg"
+    }
+  ]
+}
