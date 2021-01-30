@@ -14,7 +14,7 @@ let renderProducts = (items) => {
   let itemsArr = [];
   itemsArr = items.map((item) => {
     return (
-      <div key={item.id} className="col-4">
+      <div key={item.id} className="col-6 col-lg-4">
         <ProductCard
           cardImg={item.img}
           cardName={item.name}

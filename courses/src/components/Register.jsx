@@ -31,17 +31,17 @@ let Register = () => {
       <div className="container">
         <div className="row register mb-5 pb-4 pt-4">
           <div className="col-1"></div>
-          <div className="register__title text-capitalize col-5">
+          <div className="register__title text-capitalize col-0 col-md-5">
             get our latest news
             <p className="register__title__subscribe text-capitalize">
               {" "}
               subscribe now{" "}
             </p>
-            <div className="col-6 float-right">
+            <div className="col-0 col-md-10 col-lg-8 float-right">
               <Button btnName={"Check it out"} />
             </div>
           </div>
-          <div className="register__form col-6">
+          <div className="register__form col-12 col-md-6">
             <div className="register__form__input mt-3 mb-3">
               {/*input danh cho name */}
               <input

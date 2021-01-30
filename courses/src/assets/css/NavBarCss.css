@@ -23,6 +23,7 @@
 
 .navbar__search > input {
   height: 100%;
+  width: 90%;
 }
 
 .navbar__brand {

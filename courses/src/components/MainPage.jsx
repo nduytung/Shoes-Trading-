@@ -9,7 +9,7 @@ import LoginModal from "./LoginModal";
 
 let MainPage = () => {
   //CÔNG DỤNG: XÁC ĐỊNH XEM LÀ MODAL ẨN HAY HIỆN
-  let [displayState, setDisplayState] = useState("block");
+  let [displayState, setDisplayState] = useState("none");
 
   //CÔNG DỤNG: XÁC ĐỊNH XEM BUTTON SẼ HIỂN THỊ "LOGIN" HAY "WELCOME BACK"
   //biến loginState được truyền xuống cho button "login" để nó biết mà hiển thị welcome back
@@ -22,7 +22,9 @@ let MainPage = () => {
   let handleDisplayState = () => {
     let newState;
     if (displayState == "block") newState = "none";
-    else newState = "block";
+    else {
+      newState = "block";
+    }
     setDisplayState(newState);
     console.log(displayState);
   };
